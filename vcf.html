@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="verify.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html" class="back-button">&larr;</a>
+            <h1>Verify your Account</h1>
+        </header>
+        <p class="description">Lorem ipsum dolor sit amet, cons picing elit lorem ipsumsit.</p>
+        <label for="otp" class="label">5 digits code</label>
+        <div class="input-container" id="otp">
+            <input type="text" maxlength="1" class="input" id="digit1">
+            <input type="text" maxlength="1" class="input" id="digit2">
+            <input type="text" maxlength="1" class="input" id="digit3">
+            <input type="text" maxlength="1" class="input" id="digit4">
+            <input type="text" maxlength="1" class="input" id="digit5">
+        </div>
+        <div class="timer-container">
+            <span>Expires in</span>
+            <span class="timer" id="timer">10:00</span>
+        </div>
+        <div class="button-container">
+            <button class="button">Resend</button>
+            <button class="back-button"><a href="index.html" class="google-btn">Back</a></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
